@@ -11,7 +11,7 @@ Questioning Fandango's Movie Ratings Reliability with Pandas!
 - Contact
 
 ## General Information
-I’m uploading the code of the data I explored from Fandango's movie ratings website, to check if they are reliable!🎥
+I’m uploading the code of the data I explored from Fandango's movie ratings, to check if they are reliable!🎥
 
 The goal was to test the reliability of Fandango's movie rating system after, Walt Hickey, a data journalist, has found some discrepancies in the ratings. I extracted data of movies ratings before and after the article was published, and then analysed their differences. I also want to support other coders who are movies lovers just like me and want to learn how to analyse their data in Pandas!📈
 
@@ -27,9 +27,7 @@ First off, make sure you have conda🐍👀:
 `pip install -r requirements.txt`
 
 ## Usage
-Check out the following file in my repo to see how I've extracted, cleansed, explored, analysed, and plotted the data! 
-
-- `fandango.ipynb`
+Check out the `fandango.ipynb` file in my repo to see how I've extracted, cleansed, explored, analysed, and plotted the data! 
 
 ## Project Results
 The conclusion we reached so far is that there's indeed a slight difference between Fandango's ratings for popular movies in 2015 and Fandango's ratings for popular movies in 2016. We also determined that, on average, popular movies released in 2016 were rated lower on Fandango than popular movies released in 2015. It might be that this change was caused by Fandango's representatives fixing the biased rating system following Hickey's analysis. However, we have no tangible proof of this hypothesis since the rating values are not displayed anymore in Fandango's pages' HTML.
